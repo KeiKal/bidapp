@@ -13,9 +13,10 @@ import { ItemgalleryComponent } from './itemgallery/itemgallery.component';
 import { ImagesComponent } from './images/images.component';
 import { appRoutes } from './routes';
 import { RouterModule } from '@angular/router';
+import { TimerService } from './shared/timer';
 
 @NgModule({
-  declarations: [				
+  declarations: [					
     AppComponent,
     ToolbarComponent,
     ItemgalleryComponent,
@@ -31,7 +32,8 @@ import { RouterModule } from '@angular/router';
   ],
   providers: [
     ImageService,
-    ImageFilterPipe
+    ImageFilterPipe, 
+    TimerService
   ],
   bootstrap: [AppComponent]
 })
