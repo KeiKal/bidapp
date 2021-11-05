@@ -15,3 +15,8 @@
 .buttoncontainer .mat-raised-button{
     margin: 0px 5px;
 }
+
+.active {
+    background-color: #673ab7;
+    color: #fff;
+}
